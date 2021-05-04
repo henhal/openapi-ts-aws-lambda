@@ -1,0 +1,42 @@
+{
+  "name": "@openapi-ts/aws-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda implementation of @openapi-ts/backend. This provides simple mapping from AWS Lambda HTTP events to typed OpenAPI request handlers.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist && rm -f tsconfig.tsbuildinfo",
+    "lint": "eslint src --ext js,ts --max-warnings 0",
+    "prepublish": "yarn clean && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henhal/openapi-ts-aws-lambda.git"
+  },
+  "keywords": [
+    "OpenAPI",
+    "AWS",
+    "Lambda",
+    "HTTP",
+    "request",
+    "response",
+    "TypeScript",
+    "backend"
+  ],
+  "author": "Henrik Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henhal/openapi-ts-aws-lambda/issues"
+  },
+  "homepage": "https://github.com/henhal/openapi-ts-aws-lambda#readme",
+  "dependencies": {
+    "@openapi-ts/backend": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.76"
+  }
+}
