@@ -1,6 +1,6 @@
 {
   "name": "@openapi-ts/aws-lambda",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "AWS Lambda implementation of @openapi-ts/backend. This provides simple mapping from AWS Lambda HTTP events to typed OpenAPI request handlers.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
