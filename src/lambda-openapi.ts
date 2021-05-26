@@ -1,7 +1,7 @@
 import * as Lambda from 'aws-lambda';
 
 import {OpenApi, OperationParams, RequestParams} from '@openapi-ts/backend';
-import {fromLambdaEvent, toLambdaResult} from 'src/converters';
+import {fromLambdaEvent, toLambdaResult} from './converters';
 
 /**
  * AWS Lambda specific request parameters
