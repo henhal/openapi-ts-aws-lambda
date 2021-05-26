@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/henhal/openapi-ts-aws-lambda#readme",
   "dependencies": {
-    "@openapi-ts/backend": "^2.0.2"
+    "@openapi-ts/backend": "^2.0.5"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.76"

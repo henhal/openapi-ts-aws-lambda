@@ -37,23 +37,24 @@
   resolved "https://registry.yarnpkg.com/@jsdevtools/ono/-/ono-7.1.3.tgz#9df03bbd7c696a5c58885c34aa06da41c8543796"
   integrity sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg==
 
-"@openapi-ts/backend@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@openapi-ts/backend/-/backend-2.0.2.tgz#d9a2fe2ad95a7a0ae099034f467c212585bf1601"
-  integrity sha512-X7sV/Q086ewd/VDX4KcQVD0ayy9H0wu5T+teNAmr8ir5jQDY2NaRfUJlvpimk8Id3ShPNO8qtmk82ZwiXpmCog==
+"@openapi-ts/backend@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@openapi-ts/backend/-/backend-2.0.5.tgz#24bf432105ae7280f20a05ad5fcaac4c4baed91e"
+  integrity sha512-hplJw+xmzVrK1sTCdK88hMOgn435oFq4QrB/Zt/PNTyyaOt3jfo97UqWFMqK2BJyDJo2cOgyEtyZifDiyCc0OA==
   dependencies:
-    "@openapi-ts/request-types" "^1.0.3"
+    "@openapi-ts/request-types" "^1.0.5"
     ajv "^7.1.1"
     ajv-formats "^2.0.1"
     js-yaml "^4.0.0"
+    loglevel "^1.7.1"
     openapi-backend "^3.9.0"
     openapi-types "^7.2.3"
     openapi-typescript "^3.0.1"
 
-"@openapi-ts/request-types@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@openapi-ts/request-types/-/request-types-1.0.3.tgz#7d550851a7199cf12193784597973d6d78cc03c3"
-  integrity sha512-HzzsD7Jz7EPGHJOr9PM+1739/AxK/S1h5aTpfXEP9wLcSWFZoXPzOo1Tr76+0zK+Xv1O/YRLBJNq6p2jguhm4Q==
+"@openapi-ts/request-types@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@openapi-ts/request-types/-/request-types-1.0.5.tgz#6705e9ac6c8a8d02196f14f8064da8aed086f05c"
+  integrity sha512-OlQ6TklI8cqtiRRXpAlQ5Df7HfYy65qJz6gD4J+dpvr/KSTNcxZzhTbngK6dfZas+8FgamrpH1gAsAlqeqoyXg==
 
 "@types/aws-lambda@^8.10.76":
   version "8.10.76"
@@ -373,6 +374,11 @@ lodash@^4.17.11, lodash@^4.17.15:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
+loglevel@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.7.1.tgz#005fde2f5e6e47068f935ff28573e125ef72f197"
+  integrity sha512-Hesni4s5UkWkwCGJMQGAh71PaLUmKFM60dHvq0zi/vDhhrzuk+4GgNbTXJ12YYQJn6ZKBDNIjYcuQGKudvqrIw==
 
 lru-cache@^6.0.0:
   version "6.0.0"
